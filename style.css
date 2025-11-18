@@ -80,6 +80,24 @@ p{
     padding-top: 5px;
 }
 
+.immagine-profilo{
+ width: 10px;
+    padding-left: 10px;
+}
+.download{
+ width: 10px;
+ padding-left: 10px;
+}
+.name-profile{
+color: white;
+    display: inline;
+    font-size: 12px;
+}
+.installa-app{
+color: white;
+    display: inline;
+    font-size: 12px;
+}
 footer {
     background-color: grey;
     height: 100px;
