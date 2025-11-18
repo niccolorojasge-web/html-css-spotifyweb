@@ -1,0 +1,27 @@
+main {
+    height: calc(100vh - 150px);
+}
+
+.container-app {
+    display: flex;
+}
+
+.container-home {
+    background-color: black;
+    height: calc(100vh - 150px);
+    flex-direction: column;
+    flex-basis:30% ;
+}
+
+.container-music {
+    background-color: darkgrey;
+    height: calc(100vh - 150px);
+    flex-basis: 70%;
+    flex-direction: column;
+}
+
+footer {
+    background-color: grey;
+    height: 100px;
+    overflow: auto;
+}
