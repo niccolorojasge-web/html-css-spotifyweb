@@ -125,6 +125,7 @@ color: white;
 h2{
     color: white;
     margin-top:15px;;
+    margin-left: 10px;
 }
 .img{
     width: 70%;
@@ -132,8 +133,30 @@ h2{
 }
 .canzoni-recenti{
     display: flex;
+    margin-top: 15px;
 }
+img p {
+    text-align: center;
+}
+.img-description{
+    text-align: center;
+    font-size: 10px;
+}
+.autor{
+    color: gray;
+    font-size: 10px;
+    text-align: center;
+}
+.suggerimenti{
+    color: gray;
+    margin-left: 10px;
+}
+.playlist{
+    display: flex;
+}
+.img-mix{
 
+}
 footer {
     background-color: grey;
     height: 100px;
