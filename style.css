@@ -5,26 +5,27 @@
 }
 
 main {
-    height: calc(100vh - 150px);
+    height: calc(100vh - 100px);
 }
 
 .container-app {
     display: flex;
-    background-color:midnightblue;;
+    background-color: midnightblue;
+    height: 100%;
 }
 
 .container-home {
     background-color: black;
-    height: calc(100vh - 150px);
+    height: 150;
     flex-direction: column;
     flex-basis: 20%;
 }
 
 .container-music {
-    height: calc(100vh - 150px);
-    flex-basis: 80;
+    height: 100%;
     flex-direction: column;
     width: 100%;
+    overflow: auto;
 }
 
 .immagine-logo {
@@ -32,131 +33,179 @@ main {
     padding-left: 10px;
     padding-top: 10px;
 }
-.immagine-home{
-     width: 10px;
-     padding-left: 10px;
-    
+
+.immagine-home {
+    width: 10px;
+    padding-left: 10px;
+
 }
-.ricerca-immagine{
+
+.ricerca-immagine {
     width: 10px;
     padding-left: 10px;
 }
 
-.menu{
+.menu {
     color: white;
-    display: inline;
-    font-size: 12px;
-}
-.serch-music{
-     color: white;
     display: inline;
     font-size: 12px;
 }
 
-.library{
-width: 10px;
-    padding-left: 10px;
-}
-.song-preferite{
-color: white;
+.serch-music {
+    color: white;
     display: inline;
     font-size: 12px;
 }
-h4{
+
+.library {
+    width: 10px;
+    padding-left: 10px;
+}
+
+.song-preferite {
+    color: white;
+    display: inline;
+    font-size: 12px;
+}
+
+h4 {
     color: white;
     padding-left: 10px;
     padding-top: 10px;
 }
-.fa-solid{
+
+.fa-solid {
     color: black;
     background-color: gray;
     margin-top: 10px;
     margin-left: 10px;
     margin-right: 5px;
 }
-p{
+
+p {
     color: white;
     font-size: 12px;
     padding-left: 5px;
     padding-top: 5px;
 }
 
-.immagine-profilo{
- width: 10px;
+.immagine-profilo {
+    width: 10px;
     padding-left: 10px;
 }
-.download{
- width: 10px;
- padding-left: 10px;
+
+.download {
+    width: 10px;
+    padding-left: 10px;
 }
-.name-profile{
-color: white;
+
+.name-profile {
+    color: white;
     display: inline;
     font-size: 12px;
 }
-.installa-app{
-color: white;
+
+.installa-app {
+    color: white;
     display: inline;
     font-size: 12px;
 }
-.container{
-    margin-top: 50px;
+
+.container-playlists {
+    height: calc(100% - 50px)
 }
-.banner{
+
+.container {
+    height: 50px;
+}
+
+.banner {
     height: 40px;
     text-align: right;
     margin-top: 8px;
     margin-right: 5px;
 }
-.button{
+
+.button {
     color: white;
-    margin margin-top: 5px;
-    border:2px solid #fff;
-    border-radius:8px;
+    margin: 5px;
+    border: 2px solid #fff;
+    border-radius: 8px;
 }
-.options{
+
+.options {
     color: white;
     display: inline-block;
 }
-.style{
+
+.style {
     margin: 0 auto;
     text-align: center;
 }
-h2{
+
+h2 {
     color: white;
-    margin-top:15px;;
+    margin-top: 15px;
+    ;
     margin-left: 10px;
 }
-.img{
-    width: 70%;
-    margin-left: 20px;
+
+.img {
+    max-width: 100%;
+    /* margin-right: 20px; */
 }
-.canzoni-recenti{
+
+.card-img {
+    width: calc(100% / 6);
+}
+
+.canzoni-recenti {
     display: flex;
     margin-top: 15px;
+    gap: 10px;
 }
+
 img p {
     text-align: center;
 }
-.img-description{
+
+.img-description {
     text-align: center;
     font-size: 10px;
 }
-.autor{
+
+.autor {
     color: gray;
     font-size: 10px;
     text-align: center;
 }
-.suggerimenti{
+
+.suggerimenti {
     color: gray;
     margin-left: 10px;
 }
-.playlist{
+
+
+.daily-mix {
     display: flex;
 }
-.img-mix{
 
+.daily-mix {
+    display: flex;
+    gap: 10px;
 }
+
+.artisti-mix {
+    display: flex;
+}
+
+.artisti-mix {
+    gap: 10px
+}
+.rodeus{
+    border-radius: 5px;
+}
+
 footer {
     background-color: grey;
     height: 100px;
