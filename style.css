@@ -24,6 +24,7 @@ main {
     height: calc(100vh - 150px);
     flex-basis: 80;
     flex-direction: column;
+    width: 100%;
 }
 
 .immagine-logo {
@@ -98,6 +99,41 @@ color: white;
     display: inline;
     font-size: 12px;
 }
+.container{
+    margin-top: 50px;
+}
+.banner{
+    height: 40px;
+    text-align: right;
+    margin-top: 8px;
+    margin-right: 5px;
+}
+.button{
+    color: white;
+    margin margin-top: 5px;
+    border:2px solid #fff;
+    border-radius:8px;
+}
+.options{
+    color: white;
+    display: inline-block;
+}
+.style{
+    margin: 0 auto;
+    text-align: center;
+}
+h2{
+    color: white;
+    margin-top:15px;;
+}
+.img{
+    width: 70%;
+    margin-left: 20px;
+}
+.canzoni-recenti{
+    display: flex;
+}
+
 footer {
     background-color: grey;
     height: 100px;
