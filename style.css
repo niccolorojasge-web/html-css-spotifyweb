@@ -214,6 +214,8 @@ footer {
     background-color: grey;
     height: 100px;
     overflow: auto;
+    z-index: 200;
+    position: relative;
 }
 
 .footer-img {
@@ -287,5 +289,32 @@ footer {
   }  
 }
 @media screen and ( max-width:480px){
+.card-img{
+    width: calc((100% / 2) - 10px);   
+}
+.my-music{
+    display: none;
+}
+.menu{
+    display: none;
+}
+.serch-music{
+    display: none;
+}
+.song-preferite{
+    display: none;
+}
+H4{
+    display: None;
+}
+.playlist-canc{
+    display: none;
+}
+.name-profile{
+    display: none;
 
+}
+.installa-app{
+    display: none;
+}
 }
