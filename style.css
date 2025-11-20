@@ -7,10 +7,12 @@
 main {
     height: calc(100vh - 100px);
 }
-
+.banner{
+    background-color: #090b12;
+}
 .container-app {
     display: flex;
-    background-color: darkblue;
+    background-color: #141922;
     height: 100%;
 }
 
@@ -269,4 +271,15 @@ footer {
     height: 4px;
     background: #4c4c4c;
     border-radius: 5px;
+}
+.container-play{
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (max-width:768px) {
+    
+}
+@media screen and ( max-width:480px){
+
 }
