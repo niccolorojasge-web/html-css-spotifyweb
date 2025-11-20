@@ -123,8 +123,9 @@
         <div class="container-footer">
             <div class="footer-card">
                 <img class="footer-img" src="sinister.jpeg" alt="">
+                <div>
                 <p>sinister</p>
-                <p>brano nome</p>
+                <p> brano nome</p></div>
                 <i class="fa-regular fa-heart"></i>
                 <i class="fa-solid fa-folder"></i>
             </div>
@@ -133,12 +134,19 @@
                 <i class="fa-solid fa-backward-step"></i>
                 <i class="fa-solid fa-play"></i>
                 <i class="fa-solid fa-forward-step"></i>
-
+                 <div class="container-processo">
+                    <span id="tempo-corrente">0:00</span>
+                    <input type="range" min="0" max="240" value="0" class="barra-progresso" id="progresso">
+                    <span id="durata">4:35</span>
+                 </div>
             </div>
             <div class="footer-card3">
                 <i class="fa-solid fa-list"></i>
                 <i class="fa-solid fa-desktop"></i>
                 <i class="fa-solid fa-volume-high"></i>
+                <div class="volume">
+                <input type="range" min="0" max="100" value="50" class="volume-slider" id="volume">
+                </div>
             </div>
 
         </div>
