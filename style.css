@@ -132,7 +132,9 @@ p {
     border: 2px solid #fff;
     border-radius: 8px;
 }
-
+.logo-mini{
+    display: none;
+}
 .options {
     color: white;
     display: inline-block;
@@ -314,5 +316,14 @@ H4{
 .installa-app{
     display: none;
 }
-.
+.logo-mini{
+    display: block;
+    width: 15px;
+}
+.immagine-logo{
+    display: none;
+}
+.container-home{
+    flex-basis: 20px;
+}
 }
