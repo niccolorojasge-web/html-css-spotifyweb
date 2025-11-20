@@ -7,9 +7,7 @@
 main {
     height: calc(100vh - 100px);
 }
-.banner{
-    background-color: #090b12;
-}
+
 .container-app {
     display: flex;
     background-color: #141922;
