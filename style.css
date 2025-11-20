@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border box;
+    box-sizing: border-box;
 }
 
 main {
@@ -26,7 +26,7 @@ main {
     flex-direction: column;
     width: 100%;
     overflow: auto;
-    padding: 10px;
+    padding: 0 10px;
 }
 
 .immagine-logo {
@@ -37,13 +37,13 @@ main {
 
 .immagine-home {
     width: 10px;
-    padding-left: 10px;
+    
 
 }
 
 .ricerca-immagine {
     width: 10px;
-    padding-left: 10px;
+    
 }
 
 .menu {
@@ -60,7 +60,7 @@ main {
 
 .library {
     width: 10px;
-    padding-left: 10px;
+   
 }
 
 .song-preferite {
@@ -92,12 +92,12 @@ p {
 
 .immagine-profilo {
     width: 10px;
-    padding-left: 10px;
+    
 }
 
 .download {
     width: 10px;
-    padding-left: 10px;
+    
 }
 
 .name-profile {
@@ -123,8 +123,7 @@ p {
 .banner {
     height: 40px;
     text-align: right;
-    margin-top: 8px;
-    margin-right: 5px;
+    background-color: rgba( 0,0,0,0.25);
 }
 
 .button {
@@ -315,4 +314,5 @@ H4{
 .installa-app{
     display: none;
 }
+.
 }
