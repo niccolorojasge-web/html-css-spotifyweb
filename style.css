@@ -28,6 +28,7 @@ main {
     flex-direction: column;
     width: 100%;
     overflow: auto;
+    padding: 10px;
 }
 
 .immagine-logo {
@@ -278,7 +279,12 @@ footer {
 }
 
 @media screen and (max-width:768px) {
-    
+  .card-img{
+    width: calc((100% / 4) - 10px);
+  }
+  .canzoni-recenti{
+    flex-wrap: wrap;
+  }  
 }
 @media screen and ( max-width:480px){
 
